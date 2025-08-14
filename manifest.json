@@ -1,0 +1,76 @@
+{
+  "name": "Snake Arcade",
+  "short_name": "Snake Arcade",
+  "description": "The ultimate arcade-style Snake game with stunning visuals and smooth gameplay across all platforms",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#00ff41",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["games", "arcade", "puzzle"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMjQiIGZpbGw9IiMwMGEwMGEiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDk2IDk2Ij4KPHBhdGggZD0iTTI0IDQ4QzI0IDM0LjMyNjkgMzQuMzI2OSAyNCA0OCAyNEg0OEM2MS42NzMxIDI0IDcyIDM0LjMyNjkgNzIgNDhWNjRDNzIgNzcuNjczMSA2MS42NzMxIDg4IDQ4IDg4SDQ4QzM0LjMyNjkgODggMjQgNzcuNjczMSAyNCA2NFY0OFoiIGZpbGw9IiMwMGZmNDEiLz4KPHBhdGggZD0iTTQ4IDMyQzQwLjI2ODkgMzIgMzQgMzguMjY4OSAzNCA0NlY2NkMzNCA3My43MzExIDQwLjI2ODkgODAgNDggODBINjRDNzEuNzMxMSA4MCA3OCA3My43MzExIDc4IDY2VjQ2Qzc4IDM4LjI2ODkgNzEuNzMxMSAzMiA2NCAzMkg0OFoiIGZpbGw9IiMwMGNjMzMiLz4KPHBhdGggZD0iTTQ4IDQwQzQ0LjQ2NjcgNDAgNDIgNDIuNDY2NyA0MiA0NlY2NkM0MiA2OS41MzMzIDQ0LjQ2NjcgNzIgNDggNzJINjRDNjcuNTMzMyA3MiA3MCA2OS41MzMzIDcwIDY2VjQ2QzcwIDQyLjQ2NjcgNjcuNTMzMyA0MCA2NCA0MEg0OFoiIGZpbGw9IiMwMDk5MjYiLz4KPC9zdmc+Cjwvc3ZnPgo=",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iNjQiIGZpbGw9IiMwMGEwMGEiLz4KPHN2ZyB4PSIxMjgiIHk9IjEyOCIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHZpZXdCb3g9IjAgMCAyNTYgMjU2Ij4KPHBhdGggZD0iTTY0IDEyOEM2NCA5MS41ODI1IDkxLjU4MjUgNjQgMTI4IDY0SDEyOEMxNjQuNDE4IDY0IDE5MiA5MS41ODI1IDE5MiAxMjhWMTcwLjY2N0MxOTIgMjA3LjA4NSAxNjQuNDE4IDIzNC42NjcgMTI4IDIzNC42NjdIMTI4QzkxLjU4MjUgMjM0LjY2NyA2NCAyMDcuMDg1IDY0IDE3MC42NjdWMTI4WiIgZmlsbD0iIzAwZmY0MSIvPgo8cGF0aCBkPSJNMTI4IDg1LjMzMzNDMTA3LjQxNyA4NS4zMzMzIDkwLjY2NjcgMTAyLjA4MyA5MC42NjY3IDEyMi42NjdWMTc2QzkwLjY2NjcgMTk2LjU4MyAxMDcuNDE3IDIxMy4zMzMgMTI4IDIxMy4zMzNIMTcwLjY2N0MxOTEuMjUgMjEzLjMzMyAyMDggMTk2LjU4MyAyMDggMTc2VjEyMi42NjdDMjA4IDEwMi4wODMgMTkxLjI1IDg1LjMzMzMgMTcwLjY2NyA4NS4zMzMzSDEyOFoiIGZpbGw9IiMwMGNjMzMiLz4KPHBhdGggZD0iTTEyOCAxMDYuNjY3QzExOS42MjUgMTA2LjY2NyAxMTIuNjY3IDExMy42MjUgMTEyLjY2NyAxMjIuNjY3VjE3NkMxMTIuNjY3IDE4NS4wNDIgMTE5LjYyNSAxOTIgMTI4IDE5MkgxNzAuNjY3QzE3OS4wNDIgMTkyIDE4NiAxODUuMDQyIDE4NiAxNzZWMTIyLjY2N0MxODYgMTEzLjYyNSAxNzkuMDQyIDEwNi42NjcgMTcwLjY2NyAxMDYuNjY3SDEyOFoiIGZpbGw9IiMwMDk5MjYiLz4KPC9zdmc+Cjwvc3ZnPgo=",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4MCIgaGVpZ2h0PSI3MjAiIHZpZXdCb3g9IjAgMCAxMjgwIDcyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjEyODAiIGhlaWdodD0iNzIwIiBmaWxsPSIjMGEwYTBhIi8+Cjx0ZXh0IHg9IjY0MCIgeT0iMzYwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iNDgiIGZpbGw9IiMwMGZmNDEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPk5BTUUgWU9VUiBHQU1FPC90ZXh0Pgo8L3N2Zz4K",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start New Game",
+      "short_name": "Play",
+      "description": "Start a new Snake Arcade game",
+      "url": "/?action=play",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQ4IDhDNDAuMjY4OSA4IDM0IDE0LjI2ODkgMzQgMjJWNDJDMzQgNDkuNzMxMSA0MC4yNjg5IDU2IDQ4IDU2SDY0QzcxLjczMTEgNTYgNzggNDkuNzMxMSA3OCA0MlYyMkM3OCAxNC4yNjg5IDcxLjczMTEgOCA2NCA4SDQ4WiIgZmlsbD0iIzAwZmY0MSIvPgo8L3N2Zz4K",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "High Scores",
+      "short_name": "Scores",
+      "description": "View your high scores",
+      "url": "/?action=scores",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQ4IDhDNDAuMjY4OSA4IDM0IDE0LjI2ODkgMzQgMjJWNDJDMzQgNDkuNzMxMSA0MC4yNjg5IDU2IDQ4IDU2SDY0QzcxLjczMTEgNTYgNzggNDkuNzMxMSA3OCA0MlYyMkM3OCAxNC4yNjg5IDcxLjczMTEgOCA2NCA4SDQ4WiIgZmlsbD0iI2ZmYWEwMCIvPgo8L3N2Zz4K",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "handle_links": "preferred",
+  "protocol_handlers": [
+    {
+      "protocol": "web+snake",
+      "url": "/?game=%s"
+    }
+  ]
+}
